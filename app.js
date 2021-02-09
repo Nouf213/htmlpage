@@ -34,3 +34,10 @@ for (var i=0; i<numofdesserts;i++)
 }
 
 document.write (result);
+var yourname=prompt ("enter your name")
+function printGreeting(nome)
+{
+    alert('greeting'+ nome)
+}
+
+printGreeting (yourname);
